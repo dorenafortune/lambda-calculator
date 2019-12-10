@@ -3,7 +3,9 @@ import React from "react";
 const NumberButton = ({numbs}) => {
   return (
     <div>
-    <button>{numbs}</button>
+    <button className="number-button" onClick = {() => console.log(numbs)}> 
+    {numbs}
+    </button>
     </div>
   );
 };
