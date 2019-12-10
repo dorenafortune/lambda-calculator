@@ -12,6 +12,8 @@ import { numbers } from '../../../data'
 const Numbers = () => {
   // STEP 2 - add the imported data to state
 
+  const [state, setNumberState] = useState(numbers); 
+
   return (
     <div>
   
@@ -25,4 +27,4 @@ const Numbers = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
 
-  export default Numbers 
+  export default Numbers

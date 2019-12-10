@@ -9,10 +9,12 @@ import OperatorButton from "./OperatorButton";
 
 const Operators = () => {
   // STEP 2 - add the imported data to state
+
+  const [state, setOperatorState] = useState(operators);
   return (
     <div>
       {operators.map((op) => (
-        <OperatorButton op={op} key={op} />
+        <OperatorButton op={op.value} key={op} />
   ))}  
     </div>
   );
