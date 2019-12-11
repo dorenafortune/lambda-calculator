@@ -21,8 +21,14 @@
     font-size: 5.0rem;
   }
 
+  .number-buttonStyle{
+      display:flex;
+      flex-wrap:wrap;
+      
+  }
+
   .number-button{
-      background-color: #296494;
+    background-color: #296494;
     color: white;
     border-radius: 100px;
     width: 100px;
@@ -32,6 +38,16 @@
     margin: 10px 10px;
     box-shadow: -1px 6px 6px 0px rgba(0,0,0,0.94)
 
+  }
+
+  .operator-buttonStyle{
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction: column;
+      align-content: flex-end;
+    
+      
+      
   }
 
   .operator-button{
@@ -47,8 +63,11 @@
 
   }
 
-  .special-button{
+  .special-buttonStyle{
+      display:flex;
+  }
 
+  .special-button{
     background-color: #01579b;
     color: white;
     border-radius: 100px;

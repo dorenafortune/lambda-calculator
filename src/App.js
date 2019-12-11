@@ -22,8 +22,14 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
+        <div className = "numbers-buttonStyle">
+
         <Numbers />
+        </div>
+      
         <Operators/>
+        
+
         <Specials />
       </div> 
     </div>

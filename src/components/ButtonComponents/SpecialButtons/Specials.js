@@ -10,7 +10,7 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
   const [state, setSpecialState] = useState(specials); 
   return (
-    <div>
+    <div className = "special-buttonStyle">
       {specials.map((special) => (
         <SpecialButton special={special} key={special} />
   ))}     

@@ -12,7 +12,7 @@ const Operators = () => {
 
   const [state, setOperatorState] = useState(operators);
   return (
-    <div>
+    <div className = "operator-buttonStyle">
       {operators.map((op) => (
         <OperatorButton op={op.value} key={op} />
   ))}  
