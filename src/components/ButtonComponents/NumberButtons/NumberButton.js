@@ -1,10 +1,11 @@
 import React from "react";
 import { tsPropertySignature } from "@babel/types";
 
-const NumberButton = ({numbs}) => {
+const NumberButton = (props) => {
   return (
     <div>
-    <button className="number-button">{numbs}
+    <button className="number-button" onClick = {() => props.addNumber(props.numbs)}> 
+    {props.numbs}
     </button>
     </div>
   );
